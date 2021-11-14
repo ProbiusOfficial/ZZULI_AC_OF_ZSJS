@@ -9,7 +9,7 @@ main();
 function main() {
     let msg = `
     作者：探姬
-    开源地址：无
+    开源地址：https://github.com/ProbiusOfficial/ZZULI_AC_OF_ZSJS
     
     请确保你在答题的页面
     点击 “确定” 开始
