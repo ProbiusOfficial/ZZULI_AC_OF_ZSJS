@@ -44,7 +44,11 @@ $.post(url,params,function(responseText){
 ![image](https://user-images.githubusercontent.com/41804496/142233436-5e442527-9c4a-43c7-accf-4232c41231b5.png)    
 在里面搜索 autoSubmit(),找到 function autoSubmit()函数，将：    
 var result_content=getExamAnswerFn();  
+![image](https://user-images.githubusercontent.com/41804496/142237598-52f599e9-5d5a-49bd-a0b4-09766e86a79d.png)
+
 中的getExamAnswerFn()替换为2021_data.json中的数据，注意，一定不要换行！  
+![image](https://user-images.githubusercontent.com/41804496/142237763-1a696d7a-4ddc-44b2-bb40-daaf3feac1d8.png)
+
 按下 Ctrl + s 保存（如果出现黄色小三角，提示没被保存，那么继续往下看）  
 
 3.更改时间数据，提交  
