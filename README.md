@@ -4,7 +4,8 @@
 ## 看这里
 题库替换的方法以及有大佬写了油猴脚本里Qwq~  
 感谢@https://github.com/xVue 大佬    
-文件为 zj.user.js  各位按需自取鸭~
+文件为 zj.user.js  各位按需自取鸭~  
+[点这里直接拿脚本](https://greasyfork.org/zh-CN/scripts/435679-%E6%B2%B3%E5%8D%97%E5%AE%97%E6%95%99%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86%E7%AB%9E%E8%B5%9B)
 ### 关于这份脚本
 该脚本目前没法完成完美答题，因为题库歪了。。。（可以看看下面的方法  
 题库文件是data.js，其他答题逻辑没有问题。  
@@ -14,7 +15,6 @@
 ### 关于另外一种方法
 ——我为什么放弃了脚本（雾  
 作者：@TherHello:https://www.therehello.top/ & @探姬  
-[点这里直接拿脚本](https://greasyfork.org/zh-CN/scripts/435679-%E6%B2%B3%E5%8D%97%E5%AE%97%E6%95%99%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86%E7%AB%9E%E8%B5%9B)
 不许拿去商用赚钱！！！！！！！  
 #### 页面的提交过程分析如下：
 ```
