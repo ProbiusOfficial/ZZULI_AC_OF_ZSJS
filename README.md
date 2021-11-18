@@ -9,6 +9,7 @@
 - - -
 ### 关于另外一种方法
 ——我为什么放弃了脚本（雾  
+作者：@TherHello:https://www.therehello.top/ & @探姬
 #### 页面的提交过程分析如下：
 ```
 程序调用 autoSubmit()  
