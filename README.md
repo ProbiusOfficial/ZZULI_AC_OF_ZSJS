@@ -15,12 +15,12 @@
 然后该调用getExamAnswerFn()这个函数，从开始遍历读取你的答案，如果有没有答的题则alert  
 一切无误后被封装在 result_content 中  
 其格式如下：  
-```
+
 '[{"orderindex":"1","topicid":"1000042","result":"D"},{"orderindex":"2","topicid":"1000038","result":"A"},{"orderindex":"3","topicid":"1000006","result":"A"},{"orderindex":"4","topicid":"1000115","result":"A"},{"orderindex":"5","topicid":"1000142","result":"D"},{"orderindex":"6","topicid":"1000011","result":"A"},{"orderindex":"7","topicid":"1000145","result":"D"},{"orderindex":"8","topicid":"1000105","result":"D"},{"orderindex":"9","topicid":"1000139","result":"C"},{"orderindex":"10","topicid":"1000096","result":"D"},{"orderindex":"11","topicid":"1000116","result":"A"},{"orderindex":"12","topicid":"10
 ....
 //多选题的样例:  
 {"orderindex":"54","topicid":"1000288","result":"A,B,D"}  
-```
+
 再通过var params={paperid:paperid,csmpagerid:csmpagerid,starttime:starttime,result_content:result_content,memberusercode:memberusercode,memberschoolid:memberschoolid,membernickname:membernickname,ssm:getSSM()}构造头信息
 最后通过
 $.post(url,params,function(responseText){
