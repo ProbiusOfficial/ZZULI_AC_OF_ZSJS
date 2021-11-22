@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name                河南宗教理论知识竞赛
 // @namespace           Ne-21
-// @version             1.0.1
+// @version             1.0.3
 // @description         河南省大学生中国特色社会主义民族宗教理论知识竞赛100分，题库来源https://github.com/therehello/2021ZJJS,方法来源https://github.com/ProbiusOfficial/ZZULI_AC_OF_ZSJS
 // @author              Ne-21
 // @match               *://exam.hm86.cn/web/front/study/examination.php*
@@ -21,6 +21,7 @@ var dayjs = _self.dayjs || top.dayjs;
 (function () {
     $(document).ready(function () {
         hookAutoSubmitMethod();
+        _self.min = random_int(20,10)
     })
 })();
 
@@ -65,7 +66,6 @@ function hookAutoSubmitMethod() {
                 $('#hmui-grid > tbody > tr:nth-child(2) > td:nth-child(1) > input[type=radio]').click()
                 $('.bd > ul > li').attr("class", "on")
                 _self.autoSubmit()
-                $('#countdown_time').text('考试还有' + random_int(10, 20) + '分' + random_int(10, 40) + '秒')
             } else if (result.isDenied) {
                 Swal.fire({
                     position: 'center',
@@ -83,8 +83,8 @@ function hookAutoSubmitMethod() {
 }
 
 function random_int(x, y) {
-    var x = x;
-    var y = y;
-    var rand = parseInt(Math.random() * (x - y + 1) + y);
+    var xt = x;
+    var yd = y;
+    var rand = parseInt(Math.random() * (xt - yd + 1) + yd);
     return rand;
 }
