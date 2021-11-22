@@ -9,6 +9,8 @@
 [点这里直接拿脚本](https://greasyfork.org/zh-CN/scripts/435679-%E6%B2%B3%E5%8D%97%E5%AE%97%E6%95%99%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86%E7%AB%9E%E8%B5%9B)   
 - - -
 @https://github.com/zkeq/religious-auto 写了一份遍历题库的，可以去看看
+- - -
+有问题或者想要更多脚本请加群：839845604
 ### 关于这份脚本
 该脚本目前没法完成完美答题，因为题库歪了。。。（可以看看下面的方法  
 题库文件是data.js，其他答题逻辑没有问题。  
