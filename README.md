@@ -8,7 +8,7 @@ https://script.521daigua.cn/
 
 或者。。。。  
 
-点下面👇直接拿吧
+点下面👇直接拿吧  
 https://scriptcat.org/script-show-page/194
 
   
