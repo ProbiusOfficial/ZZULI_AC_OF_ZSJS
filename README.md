@@ -6,6 +6,11 @@
 如果你想要获取新脚本，可以来：839845604群，或者直接N21大佬的插件库里面找：  
 https://script.521daigua.cn/
 
+或者。。。。  
+
+点下面👇直接拿吧
+https://scriptcat.org/script-show-page/194
+
   
      
         
